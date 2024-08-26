@@ -55,7 +55,7 @@ export default function Navbar() {
                     </div>}
                     <div className="hidden lg:flex lg:items-center gap-x-2">
                         {!userToken && <>
-                        <NavLink to={'/rgister'} className="flex items-center text-black dark:text-white justify-center ml-3 pr-2 py-2.5 font-semibold">Sign up</NavLink>
+                        <NavLink to={'/rgister'} style={{ color: 'var(--text-color-title)' }} className="flex items-center justify-center ml-3 pr-2 py-2.5 font-semibold">Sign up</NavLink>
                         <NavLink to={'/login'} className="flex items-center justify-center rounded-md bg-[#359751] text-white  hover:bg-[#289045]  px-6 py-2.5 font-semibold hover:shadow-lg hover:drop-shadow transition duration-200">Login</NavLink>
                         </>}
                         {userToken && <li className="flex items-center text-black dark:text-white justify-center ml-3 pr-2 py-2.5 font-semibold">
@@ -94,7 +94,7 @@ export default function Navbar() {
                 </>}
                             {menuOpen && <div className="flex flex-col gap-y-2 mt-4">
                                 {!userToken && <>
-                                    <NavLink to={'/rgister'} className="flex items-center text-black dark:text-white justify-center ml-3 pr-2 py-2.5 font-semibold">Sign up</NavLink>
+                                    <NavLink to={'/rgister'} style={{ color: 'var(--text-color-title)' }} className="flex items-center justify-center ml-3 pr-2 py-2.5 font-semibold">Sign up</NavLink>
                                     <NavLink to={'/login'} className="flex items-center justify-center rounded-md bg-[#359751] text-white  hover:bg-[#289045]  px-6 py-2.5 font-semibold hover:shadow-lg hover:drop-shadow transition duration-200">Login</NavLink>
                                 </>}
                                 {userToken && <li className="flex items-center text-black dark:text-white justify-center ml-3 pr-2 py-2.5 font-semibold">

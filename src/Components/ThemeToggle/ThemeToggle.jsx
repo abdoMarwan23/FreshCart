@@ -143,7 +143,7 @@ const ThemeToggle = () => {
                                         <i className="fa-solid fa-circle"></i>
                                     </button>
                                 </li>
-                                <li className="mb-3">
+                                {/* <li className="mb-3">
                                     <button
                                         onClick={() => { setMenuOpen(false); toggleTheme('crimson-velvet'); }}
                                         style={{
@@ -154,7 +154,7 @@ const ThemeToggle = () => {
                                         className={getButtonClasses('crimson-velvet')}>
                                         <i className="fa-solid fa-circle"></i>
                                     </button>
-                                </li>
+                                </li> */}
                                 <li className="mb-3">
                                     <button
                                         onClick={() => { setMenuOpen(false); toggleTheme('emerald-noir'); }}
@@ -176,18 +176,6 @@ const ThemeToggle = () => {
                                             border: isActive('lavender-mist') ? `3px solid var(--color-theme-lavender-mist)` : 'none'
                                         }}
                                         className={getButtonClasses('lavender-mist')}>
-                                        <i className="fa-solid fa-circle"></i>
-                                    </button>
-                                </li>
-                                <li className="mb-3">
-                                    <button
-                                        onClick={() => { setMenuOpen(false); toggleTheme('royal-gold'); }}
-                                        style={{
-                                            backgroundImage: 'var(--background-theme-btn-royal-gold)',
-                                            color: 'var(--color-theme-royal-gold)',
-                                            border: isActive('royal-gold') ? `3px solid var(--color-theme-royal-gold)` : 'none'
-                                        }}
-                                        className={getButtonClasses('royal-gold')}>
                                         <i className="fa-solid fa-circle"></i>
                                     </button>
                                 </li>

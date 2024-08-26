@@ -6,11 +6,44 @@ export default function Footer() {
             <div className="md:grid md:grid-cols-2 md:gap-8">
                 <div>
                     <h3 style={{ color: 'var(--text-color-title)' }}  className="text-sm font-semibold leading-6 ">Links</h3>
-                    <ul style={{ color: 'var(--text-color-pragraph)' }}  role="list" className="mt-6 space-y-4">
-                        <li><a className="text-sm leading-6  hover:" href="#">Homepage</a></li>
-                        <li><a className="text-sm leading-6  hover:" href="#">FAQ</a></li>
-                        <li><a className="text-sm leading-6  hover:" href="#">Sign up</a></li>
-                    </ul>
+                    {/* <ul style={{ color: 'var(--text-color-pragraph)' }}  role="list" className="mt-6 space-y-4"> */}
+                        <div className="social-media mt-5 relative">
+                            <a target="_blank"  href="https://www.facebook.com/profile.php?id=100013287300261&ref=xav_ig_profile_web">
+                                <div className="layer">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span className="fab fa-facebook-f"></span>
+                            </div>
+                            <div className=" text-facebook pl-11 absolute bottom-2 ">Facebook</div>
+                            </a>
+                        </div>
+                        <div className="social-media relative my-2">
+                            <a target="_blank" href="https://www.instagram.com/abdo_marwan_23?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                                <div className="layer instagram">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span className="fa-brands fa-instagram"></span>
+                            </div>
+                            <div className=" text-instagram pl-11 absolute bottom-2">Instagram</div>
+                            </a>
+                        </div>
+                        <div className="social-media relative mt-1">
+                            <a target="_blank" href="https://www.linkedin.com/in/abdelrahman-marwan-17bb28264/">
+                                <div className="layer">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span className="fa-brands fa-linkedin"></span>
+                            </div>
+                            <div className=" text-linkedin pl-11 absolute bottom-2">Linkedin</div>
+                            </a>
+                        </div>
+                    {/* </ul> */}
                 </div>
                 <div className="mt-10 md:mt-0">
                     <h3 style={{ color: 'var(--text-color-title)' }}  className="text-sm font-semibold leading-6 ">Support</h3>
