@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:root {
+    --background-img:radial-gradient(circle at 69% 86%, rgba(165, 165, 165,0.06) 0%, rgba(165, 165, 165,0.06) 25%,rgba(193, 193, 193,0.06) 25%, rgba(193, 193, 193,0.06) 50%,rgba(221, 221, 221,0.06) 50%, rgba(221, 221, 221,0.06) 75%,rgba(249, 249, 249,0.06) 75%, rgba(249, 249, 249,0.06) 100%),radial-gradient(circle at 49% 76%, rgba(129, 129, 129,0.06) 0%, rgba(129, 129, 129,0.06) 25%,rgba(164, 164, 164,0.06) 25%, rgba(164, 164, 164,0.06) 50%,rgba(200, 200, 200,0.06) 50%, rgba(200, 200, 200,0.06) 75%,rgba(235, 235, 235,0.06) 75%, rgba(235, 235, 235,0.06) 100%),radial-gradient(circle at 22% 64%, rgba(173, 173, 173,0.06) 0%, rgba(173, 173, 173,0.06) 25%,rgba(119, 119, 119,0.06) 25%, rgba(119, 119, 119,0.06) 50%,rgba(64, 64, 64,0.06) 50%, rgba(64, 64, 64,0.06) 75%,rgba(10, 10, 10,0.06) 75%, rgba(10, 10, 10,0.06) 100%),linear-gradient(307deg, rgb(255,255,255),rgb(255,255,255));
+    --background-color: #eef1f6;
+    --bg-color-input: #ffffff;
+    --text-color-input: #1f1f1f;
+    --text-color-title: #424242;
+    --text-color-pragraph: #757575;
+    --card-bg-Color:  rgb(236 236 236 / 49%);
+    
+    
+    --background-theme-btn-light:radial-gradient(circle at 69% 86%, rgba(165, 165, 165,0.06) 0%, rgba(165, 165, 165,0.06) 25%,rgba(193, 193, 193,0.06) 25%, rgba(193, 193, 193,0.06) 50%,rgba(221, 221, 221,0.06) 50%, rgba(221, 221, 221,0.06) 75%,rgba(249, 249, 249,0.06) 75%, rgba(249, 249, 249,0.06) 100%),radial-gradient(circle at 49% 76%, rgba(129, 129, 129,0.06) 0%, rgba(129, 129, 129,0.06) 25%,rgba(164, 164, 164,0.06) 25%, rgba(164, 164, 164,0.06) 50%,rgba(200, 200, 200,0.06) 50%, rgba(200, 200, 200,0.06) 75%,rgba(235, 235, 235,0.06) 75%, rgba(235, 235, 235,0.06) 100%),radial-gradient(circle at 22% 64%, rgba(173, 173, 173,0.06) 0%, rgba(173, 173, 173,0.06) 25%,rgba(119, 119, 119,0.06) 25%, rgba(119, 119, 119,0.06) 50%,rgba(64, 64, 64,0.06) 50%, rgba(64, 64, 64,0.06) 75%,rgba(10, 10, 10,0.06) 75%, rgba(10, 10, 10,0.06) 100%),linear-gradient(307deg, rgb(255,255,255),rgb(255,255,255));
+    --color-theme-light:#424242;
+    
+    --background-theme-btn-dark: linear-gradient(161deg, rgba(218, 218, 218, 0.03) 0%, rgba(218, 218, 218, 0.03) 21%,rgba(145, 145, 145, 0.03) 21%, rgba(145, 145, 145, 0.03) 49%,rgba(34, 34, 34, 0.03) 49%, rgba(34, 34, 34, 0.03) 58%,rgba(64, 64, 64, 0.03) 58%, rgba(64, 64, 64, 0.03) 68%,rgba(151, 151, 151, 0.03) 68%, rgba(151, 151, 151, 0.03) 78%,rgba(96, 96, 96, 0.03) 78%, rgba(96, 96, 96, 0.03) 85%,rgba(181, 181, 181, 0.03) 85%, rgba(181, 181, 181, 0.03) 100%),linear-gradient(101deg, rgba(71, 71, 71, 0.03) 0%, rgba(71, 71, 71, 0.03) 1%,rgba(233, 233, 233, 0.03) 1%, rgba(233, 233, 233, 0.03) 4%,rgba(139, 139, 139, 0.03) 4%, rgba(139, 139, 139, 0.03) 34%,rgba(177, 177, 177, 0.03) 34%, rgba(177, 177, 177, 0.03) 42%,rgba(130, 130, 130, 0.03) 42%, rgba(130, 130, 130, 0.03) 75%,rgba(38, 38, 38, 0.03) 75%, rgba(38, 38, 38, 0.03) 91%,rgba(216, 216, 216, 0.03) 91%, rgba(216, 216, 216, 0.03) 100%),linear-gradient(54deg, rgba(8, 8, 8, 0.03) 0%, rgba(8, 8, 8, 0.03) 25%,rgba(166, 166, 166, 0.03) 25%, rgba(166, 166, 166, 0.03) 39%,rgba(181, 181, 181, 0.03) 39%, rgba(181, 181, 181, 0.03) 41%,rgba(200, 200, 200, 0.03) 41%, rgba(200, 200, 200, 0.03) 74%,rgba(18, 18, 18, 0.03) 74%, rgba(18, 18, 18, 0.03) 83%,rgba(134, 134, 134, 0.03) 83%, rgba(134, 134, 134, 0.03) 86%,rgba(56, 56, 56, 0.03) 86%, rgba(56, 56, 56, 0.03) 100%),linear-gradient(264deg, rgba(209, 209, 209, 0.03) 0%, rgba(209, 209, 209, 0.03) 18%,rgba(31, 31, 31, 0.03) 18%, rgba(31, 31, 31, 0.03) 26%,rgba(77, 77, 77, 0.03) 26%, rgba(77, 77, 77, 0.03) 27%,rgba(3, 3, 3, 0.03) 27%, rgba(3, 3, 3, 0.03) 36%,rgba(125, 125, 125, 0.03) 36%, rgba(125, 125, 125, 0.03) 37%,rgba(233, 233, 233, 0.03) 37%, rgba(233, 233, 233, 0.03) 64%,rgba(118, 118, 118, 0.03) 64%, rgba(118, 118, 118, 0.03) 100%),linear-gradient(90deg, rgb(26, 26, 26),rgb(24, 24, 24));
+    --color-theme-dark: #fafafa ; 
+    
+    
+    --background-theme-btn-dark-green: radial-gradient(at 47% 33%, hsla(162, 77%, 40%, 0.545) 0, transparent 59%),
+                                        radial-gradient(at 82% 65%, hsl(218, 39%, 11%) 0, transparent 55%);
+    --color-theme-dark-green: #fafafa;
+    
+    
+    --background-theme-btn-ocean-breeze: linear-gradient(135deg, rgba(0, 150, 135, 0.7) 0%, rgb(0, 187, 212) 100%);
+    --color-theme-ocean-breeze: #004d40;
+
+    --background-theme-btn-autumn-glow: linear-gradient(135deg, rgb(255, 235, 193) 0%, rgb(255, 86, 34) 100%);
+    --color-theme-autumn-glow: #d84315;
+
+    --background-theme-btn-midnight-city: linear-gradient(180deg, rgba(25, 25, 25, 0.5) 30%, rgba(55, 55, 55, 0.5) 70%);
+    --color-theme-midnight-city:#ffffff;
+
+
+    --background-theme-btn-forest-canopy: linear-gradient(180deg, rgb(38, 166, 91) 30%, rgba(0, 150, 135, 0.963) 70%);
+    --color-theme-forest-canopy:#004d40;
+
+    --background-theme-btn-midnight-blue: radial-gradient(at 50% 50%, hsl(210, 36%, 20%) 0, transparent 80%),
+                                            linear-gradient(45deg, #1B263B, #415A77);
+    --color-theme-midnight-blue: #F0F3F5;
+
+
+    --background-theme-btn-crimson-velvet: linear-gradient(145deg, #2E112D, #5C3D56),
+                                            radial-gradient(circle at 30% 30%, #801336, transparent 50%);
+    --color-theme-crimson-velvet:#FFB3C1;
+
+
+
+
+    --background-theme-btn-emerald-noir: radial-gradient(at 40% 40%, hsl(180, 60%, 25%) 0, transparent 60%),
+                                            linear-gradient(135deg, #001F1F, #003333);
+    --color-theme-emerald-noir:#00FFCC;
+
+                                            
+    --background-theme-btn-lavender-mist: linear-gradient(180deg, rgba(187, 194, 251, 0.784) 0%, rgba(219, 39, 99, 0.301) 100%);
+    --color-theme-lavender-mist:#4a148c;
+
+                                            
+    --background-theme-btn-royal-gold: linear-gradient(145deg, #2B2B2B, #3E3E3E),
+                                            radial-gradient(circle at 50% 50%, #FFD700, transparent 70%);
+    --color-theme-royal-gold:#FFC300;
+
+
+
+
+    --background-theme-btn-crimson-dawn-light: linear-gradient(145deg, #FFE4E1, #FFD1D1);
+    --color-theme-crimson-dawn-light:#B22222;
+
+    --background-theme-btn-oceanic-pearl-light: linear-gradient(145deg, #E0FFFF, #B2DFEE);
+    --color-theme-oceanic-pearl-light:#20B2AA;
+
+    --background-theme-btn-ivory-midnight-light: linear-gradient(145deg, #FAF9F6, #EDEAE0);
+    --color-theme-ivory-midnight-light:#34495E;
+
+    --background-theme-btn-velvet-mirage-light: linear-gradient(145deg, #FFF0F5, #F8E6F0);
+    --color-theme-velvet-mirage-light:#8A2BE2;
+    
+
+
+    --background-theme-btn-lunar-luxe: linear-gradient(145deg, #1B1D1F, #2B2D31),
+                                        radial-gradient(circle at 50% 50%, #4B4C52, transparent 70%);
+    --color-theme-lunar-luxe:#E8E8E8;
+                                        
+    --background-theme-btn-regal-serenity: linear-gradient(145deg, #E6E1DA, #D1CBC4),
+                                            radial-gradient(circle at 50% 50%, #FFF0E3, transparent 70%);
+    --color-theme-regal-serenity:#8F6E43;
+
+    --background-theme-btn-timeless-opulence: linear-gradient(145deg, #2A2A2A, #414141),
+                                            radial-gradient(circle at 50% 50%, #A67C52, transparent 70%);
+    --color-theme-timeless-opulence:#D2AC8C;
+}
+
+
+
+[data-theme='dark'] {
+    --background-color: #111927;
+    --bg-color-input: #1F2A37;
+    --text-color-input: #8A919D;
+    --text-color-title: #fafafa;
+    --text-color-pragraph: #d4d4d8;
+    --background-img: linear-gradient(161deg, rgba(218, 218, 218, 0.03) 0%, rgba(218, 218, 218, 0.03) 21%, rgba(145, 145, 145, 0.03) 21%, rgba(145, 145, 145, 0.03) 49%, rgba(34, 34, 34, 0.03) 49%, rgba(34, 34, 34, 0.03) 58%, rgba(64, 64, 64, 0.03) 58%, rgba(64, 64, 64, 0.03) 68%, rgba(151, 151, 151, 0.03) 68%, rgba(151, 151, 151, 0.03) 78%, rgba(96, 96, 96, 0.03) 78%, rgba(96, 96, 96, 0.03) 85%, rgba(181, 181, 181, 0.03) 85%, rgba(181, 181, 181, 0.03) 100%), linear-gradient(101deg, rgba(71, 71, 71, 0.03) 0%, rgba(71, 71, 71, 0.03) 1%, rgba(233, 233, 233, 0.03) 1%, rgba(233, 233, 233, 0.03) 4%, rgba(139, 139, 139, 0.03) 4%, rgba(139, 139, 139, 0.03) 34%, rgba(177, 177, 177, 0.03) 34%, rgba(177, 177, 177, 0.03) 42%, rgba(130, 130, 130, 0.03) 42%, rgba(130, 130, 130, 0.03) 75%, rgba(38, 38, 38, 0.03) 75%, rgba(38, 38, 38, 0.03) 91%, rgba(216, 216, 216, 0.03) 91%, rgba(216, 216, 216, 0.03) 100%), linear-gradient(54deg, rgba(8, 8, 8, 0.03) 0%, rgba(8, 8, 8, 0.03) 25%, rgba(166, 166, 166, 0.03) 25%, rgba(166, 166, 166, 0.03) 39%, rgba(181, 181, 181, 0.03) 39%, rgba(181, 181, 181, 0.03) 41%, rgba(200, 200, 200, 0.03) 41%, rgba(200, 200, 200, 0.03) 74%, rgba(18, 18, 18, 0.03) 74%, rgba(18, 18, 18, 0.03) 83%, rgba(134, 134, 134, 0.03) 83%, rgba(134, 134, 134, 0.03) 86%, rgba(56, 56, 56, 0.03) 86%, rgba(56, 56, 56, 0.03) 100%), linear-gradient(264deg, rgba(209, 209, 209, 0.03) 0%, rgba(209, 209, 209, 0.03) 18%, rgba(31, 31, 31, 0.03) 18%, rgba(31, 31, 31, 0.03) 26%, rgba(77, 77, 77, 0.03) 26%, rgba(77, 77, 77, 0.03) 27%, rgba(3, 3, 3, 0.03) 27%, rgba(3, 3, 3, 0.03) 36%, rgba(125, 125, 125, 0.03) 36%, rgba(125, 125, 125, 0.03) 37%, rgba(233, 233, 233, 0.03) 37%, rgba(233, 233, 233, 0.03) 64%, rgba(118, 118, 118, 0.03) 64%, rgba(118, 118, 118, 0.03) 100%), linear-gradient(90deg, rgb(26, 26, 26), rgb(24, 24, 24));
+    --card-bg-Color: rgba(13, 13, 13, 0.207);
+    --font-family-serif: "Playfair Display SC", "serif";
+    --font-family-sans-serif: "Raleway", "sans-serif";
+}
+
+
+
+[data-theme='dark-green'] {
+    --background-color: #111927;
+    --bg-color-input: #1F2A37;
+    --text-color-input: #8A919D;
+    --text-color-title: #fafafa;
+    --text-color-pragraph: #d4d4d8;
+    --background-img: radial-gradient(at 47% 33%, hsla(162, 77%, 40%, 0.545) 0, transparent 59%),
+                        radial-gradient(at 82% 65%, hsl(218, 39%, 11%) 0, transparent 55%);
+    --card-bg-Color: rgba(13, 13, 13, 0.207);
+    --font-family-serif: "Lora", "serif";
+    --font-family-sans-serif: "Montserrat", "sans-serif";
+}
+
+[data-theme='ocean-breeze'] {
+    --background-color: #e0f7fa;
+    --bg-color-input: #ffffff;
+    --text-color-input: #00796b;
+    --text-color-title: #004d40;
+    --text-color-pragraph: #004d40;
+    --card-bg-Color: rgba(224, 248, 255, 0.8);
+    --background-img: linear-gradient(135deg, rgba(0, 150, 136, 0.1) 0%, rgba(0, 188, 212, 0.1) 100%);
+    --font-family-serif: "Merriweather", "serif";
+    --font-family-sans-serif: "Nunito", "sans-serif";
+}
+
+[data-theme='autumn-glow'] {
+    --background-color: #ffecb3;
+    --bg-color-input: #ffffff;
+    --text-color-input: #bf360c;
+    --text-color-title: #d84315;
+    --text-color-pragraph: #5d4037;
+    --card-bg-Color: rgba(255, 235, 193, 0.8);
+    --background-img: linear-gradient(135deg, rgba(255, 235, 193, 0.2) 0%, rgba(255, 87, 34, 0.2) 100%);
+    --font-family-serif: "Crimson Text", "serif";
+    --font-family-sans-serif: "Quicksand","sans-serif";
+}
+
+[data-theme='midnight-city'] {
+    --background-color: #121212;
+    --bg-color-input: #1e1e1e;
+    --text-color-input: #e0e0e0;
+    --text-color-title: #ffffff;
+    --text-color-pragraph: #b0bec5;
+    --card-bg-Color: rgba(33, 33, 33, 0.8);
+    --background-img: linear-gradient(180deg, rgba(25, 25, 25, 0.5) 0%, rgba(55, 55, 55, 0.5) 100%);
+    --font-family-serif: "Cormorant Garamond", "serif";
+    --font-family-sans-serif: "Oswald", "sans-serif";
+}
+
+[data-theme='forest-canopy'] {
+    --background-color: #c8e6c9;
+    --bg-color-input: #ffffff;
+    --text-color-input: #2c6b2f;
+    --text-color-title: #004d40;
+    --text-color-pragraph: #1b5e20;
+    --card-bg-Color: rgba(200, 230, 201, 0.8);
+    --background-img: linear-gradient(180deg, rgba(38, 166, 91, 0.2) 0%, rgba(0, 150, 136, 0.2) 100%);
+    --font-family-serif: "Cardo", "serif";
+    --font-family-sans-serif: "Poppins", "sans-serif";
+}
+
+[data-theme='midnight-blue'] {
+    --background-color: #1a237e;
+    --bg-color-input: #ffffff;
+    --text-color-input: #e3f2fd;
+    --text-color-title: #ffffff;
+    --text-color-pragraph: #bbdefb;
+    --card-bg-Color: rgba(26, 35, 126, 0.8);
+    --background-img: linear-gradient(180deg, rgba(13, 71, 161, 0.2) 0%, rgba(21, 101, 192, 0.2) 100%);
+    --font-family-serif: "Spectral", "serif";
+    --font-family-sans-serif: "Fira Sans, sans-serif";
+}
+
+[data-theme='crimson-velvet'] {
+    --background-color: #d32f2f;
+    --bg-color-input: #ffffff;
+    --text-color-input: #b71c1c;
+    --text-color-title: #b71c1c;
+    --text-color-pragraph: #7f0000;
+    --card-bg-Color: rgba(255, 205, 210, 0.8);
+    --background-img: linear-gradient(180deg, rgba(244, 67, 54, 0.2) 0%, rgba(229, 57, 53, 0.2) 100%);
+    --font-family-serif: "EB Garamond", "serif";
+    --font-family-sans-serif: "Nunito", "sans-serif";
+}
+
+[data-theme='emerald-noir'] {
+    --background-color: #004d40;
+    --bg-color-input: #ffffff;
+    --text-color-input: #a7ffeb;
+    --text-color-title: #ffffff;
+    --text-color-pragraph: #e0f2f1;
+    --card-bg-Color: rgba(0, 77, 64, 0.8);
+    --background-img: linear-gradient(180deg, rgba(0, 150, 136, 0.2) 0%, rgba(0, 200, 83, 0.2) 100%);
+    --font-family-serif: "Merriweather", "serif";
+    --font-family-sans-serif: "Nunito", "sans-serif";
+}
+
+[data-theme='lavender-mist'] {
+    --background-color: #e1bee7;
+    --bg-color-input: #ffffff;
+    --text-color-input: #6a1b9a;
+    --text-color-title: #4a148c;
+    --text-color-pragraph: #ab47bc;
+    --card-bg-Color: rgba(225, 190, 231, 0.8);
+    --background-img: linear-gradient(180deg, rgba(187, 222, 251, 0.2) 0%, rgba(233, 30, 99, 0.2) 100%);
+    --font-family-serif: "Crimson Text", "serif";
+    --font-family-sans-serif: "Quicksand","sans-serif";
+}
+
+[data-theme='royal-gold'] {
+    --background-color: #fbc02d;
+    --bg-color-input: #ffffff;
+    --text-color-input: #ff6f00;
+    --text-color-title: #ff8f00;
+    --text-color-pragraph: #ffa000;
+    --card-bg-Color: rgba(251, 192, 45, 0.8);
+    --background-img: linear-gradient(180deg, rgba(255, 193, 7, 0.2) 0%, rgba(255, 243, 0, 0.2) 100%);
+    --font-family-serif: "Crimson Text", "serif";
+    --font-family-sans-serif: "Quicksand","sans-serif";
+}
+
+
+[data-theme='crimson-dawn-light'] {
+    --background-color: #FFE4E1;
+    --bg-color-input: #FFFFFF;
+    --text-color-input: #8B0000;
+    --text-color-title: #B22222;
+    --text-color-paragraph: #8B0000;
+    --background-img: linear-gradient(145deg, #FFE4E1, #FFD1D1);;
+    --card-bg-Color: rgba(255, 228, 225, 0.8);
+    --accent-color1: #FFA07A;
+    --accent-color2: #DC143C;
+    --font-family-serif: "Lora", "serif";
+    --font-family-sans-serif: "Montserrat", "sans-serif";
+}
+
+
+
+
+[data-theme='oceanic-pearl-light'] {
+    --background-color: #E0FFFF;
+    --bg-color-input: #FFFFFF;
+    --text-color-input: #2F4F4F;
+    --text-color-title: #20B2AA;
+    --text-color-paragraph: #2F4F4F;
+    --background-img: linear-gradient(145deg, #E0FFFF, #B2DFEE);
+    --card-bg-Color: rgba(224, 255, 255, 0.8);
+    --accent-color1: #AFEEEE;
+    --accent-color2: #5F9EA0;
+    --font-family-serif: "Cardo", "serif";
+    --font-family-sans-serif: "Poppins", "sans-serif";
+}
+
+
+
+[data-theme='ivory-midnight-light'] {
+    --background-color: #FAF9F6;
+    --bg-color-input: #FFFFFF;
+    --text-color-input: #2C3E50;
+    --text-color-title: #34495E;
+    --text-color-paragraph: #2C3E50;
+    --background-img: linear-gradient(145deg, #FAF9F6, #EDEAE0);
+    --card-bg-Color: rgba(250, 249, 246, 0.8);
+    --accent-color1: #BDC3C7;
+    --accent-color2: #7F8C8D;
+    --font-family-serif: "Cardo", "serif";
+    --font-family-sans-serif: "Poppins", "sans-serif";
+}
+
+
+
+[data-theme='velvet-mirage-light'] {
+    --background-color: #FFF0F5;
+    --bg-color-input: #FFFFFF;
+    --text-color-input: #6A5ACD;
+    --text-color-title: #8A2BE2;
+    --text-color-paragraph: #6A5ACD;
+    --background-img: url('/path-to-light-mode-velvet-texture.jpg');
+    --card-bg-Color: rgba(237, 237, 237, 0.493);
+    --accent-color1: #9370DB;
+    --accent-color2: #BA55D3;
+    --font-family-serif: "Crimson Text", "serif";
+    --font-family-sans-serif: "Quicksand","sans-serif";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    background-image: var(--background-img);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--font-family-serif);
+}
+p, span{
+    font-family: var(--font-family-serif);
+}
+
+
+
+
+
+.card {
+    backdrop-filter: blur(18px) saturate(194%);
+    -webkit-backdrop-filter: blur(18px) saturate(194%);
+    background-color: var(--card-bg-Color);
+    border-radius: 12px;
+    border: 1px solid #ffffff6a;
+} 
+
+
+
+
+.slick-dots li button::before {
+    color: aliceblue !important;
+}
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #2bbc21 !important;
+}
