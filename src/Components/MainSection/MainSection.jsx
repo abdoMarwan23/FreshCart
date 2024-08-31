@@ -10,7 +10,7 @@ export default function MainSection() {
     const [showMore, setShowMore] = useState(false)
 
     return (
-        <div className="lg:h-screen h-full  lg:pl-0 md:pl-24 pb-4 xl:py-0 md:py-11 px-2 mt-9  lg:mb-2 " >
+        <div className="lg:h-screen h-full  lg:pl-0  pb-4 xl:py-0 md:py-11 px-2 mt-9  lg:mb-2 " >
             <div className="container ">
                 <div className="flex justify-center items-center  mx-auto lg:flex-row flex-col gap-y-6 gap-5">
                     <div className=" lg:block flex justify-center px-3 sm:px-1 text-center md:text-start items-center flex-col flex-wrap">
