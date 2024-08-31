@@ -13,7 +13,7 @@ export default function MainSection() {
         <div className="lg:h-screen h-full  lg:pl-0 md:pl-24 pb-4 xl:py-0 md:py-11 px-2 mt-9  lg:mb-2 " >
             <div className="container ">
                 <div className="flex justify-center items-center  mx-auto lg:flex-row flex-col gap-y-6 gap-5">
-                    <div className=" lg:block flex justify-center text-center md:text-start items-center flex-col flex-wrap">
+                    <div className=" lg:block flex justify-center px-3 sm:px-1 text-center md:text-start items-center flex-col flex-wrap">
                         <h1 style={{ color: 'var(--text-color-title)' }} className="text-4xl font-bold mb-5 sm:w-[32rem] md:text-center lg:text-left text-zinc-50" >DISCOVER FRESH SHOPPING EXPERIENCE</h1>
                         <p style={{ color: 'var(--text-color-pragraph)' }} className="w-96" >Welcome to FreshCart, your one-stop destination for all things fresh and delicious. Explore a wide range of high-quality products sourced directly from local producers to your doorstep. Embrace the freshness and convenience with FreshCart.</p>
                         {showMore && <p style={{ color: 'var(--text-color-pragraph)' }} className=" second mt-3 sm:w-96" >Welcome to FreshCart, your one-stop destination for all things fresh and delicious. Explore a wide range of high-quality products sourced directly from local producers to your doorstep. Embrace the freshness and convenience with FreshCart.</p>}
