@@ -32,7 +32,7 @@ export default function CheckoutDetails() {
                     token: localStorage.getItem('token')
                 },
                 params: {
-                    url: "http://localhost:5173"
+                    url: "https://fresh-cart-bay.vercel.app/"
                 }
             }).then(({ data }) => {
             setIsLoading(false); 
