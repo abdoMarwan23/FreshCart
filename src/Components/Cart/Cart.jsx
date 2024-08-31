@@ -29,8 +29,11 @@ export default function Cart() {
             setIsLoading(false);
         })
         setCart(data);
+        console.log(data);
+        // cartExist = true;
     }
 
+    console.log(cart)
 
     async function clearUserCart() {
         setIsLoading(true)
@@ -38,14 +41,14 @@ export default function Cart() {
             headers: {
                 token: localStorage.getItem("token")
             }
-        }).finally(() => {
-            setCart(null);
         })
+        setCart(null);
         setIsLoading(false);
-        console.log(data)
+        // cartExist = false;
+        // console.log(data)
     }
 
-
+    // const f = null;
 
 
     return (
@@ -54,7 +57,7 @@ export default function Cart() {
                 <title>Cart</title>
             </Helmet>
             {isLoading ? <LoadingScrean /> :
-                cart ? <div className="container mx-auto mt-10">
+                cart?.numOfCartItems ? <div className="container mx-auto mt-10">
                     <div className="sm:flex shadow-md my-10 card">
                         <div className="  w-full  sm:w-2/3  px-10 py-10">
                             <div style={{ color: 'var(--text-color-title)' }} className="flex justify-between  border-b pb-8">
@@ -75,7 +78,7 @@ export default function Cart() {
                                 Continue Shopping
                             </Link>
                         </div>
-                        <div id="summary" className=" w-full   sm:w-1/3   md:w-1/2     px-8 py-10">
+                        <div id="summary" className=" w-full   sm:w-1/3   md:w-1/2     px-8 py-10 ">
                             <h1   style={{ color: 'var(--text-color-title)' }}  className="font-semibold text-2xl  border-b pb-8">Order Summary</h1>
                             <div   style={{ color: 'var(--text-color-title)' }} className="flex justify-between mt-10 mb-5">
                                 <span className="font-semibold  text-sm uppercase">{cart?.numOfCartItems}</span>

@@ -32,7 +32,7 @@ export default function Catigories() {
                 <div className="grid grid-cols-1 sm:pl-32  md:pl-11 md:grid-cols-2 px-5 gap-y-4 py-6 xl:grid-cols-3 gap-3 ">
                     {data?.data?.data.map((catigory, i) => {
                         return <div className="" key={i}>
-                            <div className="max-w-sm  rounded text-center overflow-hidden shadow-xl">
+                            <div className="max-w-sm  rounded text-center overflow-hidden  shadow-sm hover:shadow-xl hover:shadow-green-400  shadow-green-400 transition-all duration-300">
                                 <Link to={'/catigoryDetails/' + catigory._id} >
                                     <img className="w-full h-72 " src={catigory.image} alt="Home in Countryside" />
                                 </Link>

@@ -30,8 +30,8 @@ export default function WishListDetails({ product, setWishList, isLoading, setIs
         // console.log(productId)
         console.log(data);
         // console.log(product)
-        getUserWishList()
         setIsLoading(false)
+        getUserWishList();
 
 
         toast.success("item has been deleted successfully", {

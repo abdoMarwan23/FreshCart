@@ -31,7 +31,7 @@ export default function Brand() {
                 <div className="grid xl:grid-cols-3 sm:pl-11 px-5 grid-cols-1  md:grid-cols-2 gap-y-9 md:gap-y-5 gap-3 py-5">
                     {data?.data?.data?.map((brand, i) => {
                         return <div className="" key={i}>
-                            <div className="max-w-sm rounded text-center overflow-hidden shadow-xl">
+                            <div className="max-w-sm rounded text-center overflow-hidden  shadow-sm hover:shadow-xl hover:shadow-green-400  shadow-green-400 transition-all duration-300">
                                 <Link to={'/brandDetails/' + brand._id} >
                                     <img className="w-full " src={brand.image} alt="Home in Countryside" />
                                 </Link>

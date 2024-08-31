@@ -421,7 +421,7 @@ p, span{
 
 .card {
     backdrop-filter: blur(18px) saturate(194%);
-    -webkit-backdrop-filter: blur(18px) saturate(194%);
+    /* --tw-shadow-color: #a78bfa; */
     background-color: var(--card-bg-Color);
     border-radius: 12px;
     border: 1px solid #ffffff6a;
@@ -437,3 +437,151 @@ p, span{
     opacity: .75;
     color: #2bbc21 !important;
 }
+
+
+
+/* 
+
+p.second {
+    display: none;
+}
+button.readHome {} */
+
+
+
+
+
+/* From Uiverse.io by Madflows */ 
+button {
+    
+}
+
+
+button.learn-more {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 15px;
+    height: 50px;
+    font-weight: 600;
+    /* color: var(--background-color); */
+    text-transform: uppercase;
+    padding-left:  2em;
+    padding-right:  2em;
+    background: rgb(241, 255, 244);
+    border: 2px solid rgb(27, 115, 53);
+    border-radius: 0.75em;
+    transform-style: preserve-3d;
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+
+button.learn-more::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: -5px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #0bba4b;
+    border-radius: inherit;
+    box-shadow: 0 0 0 2px rgb(27, 115, 53), 0 0.625em 0 0 #ffe3e200;
+    transform: translate3d(0, 0.75em, -1em);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+
+button.learn-more:hover {
+    transform: translate(0, 0.25em);
+}
+
+button.learn-more:hover::before {
+    box-shadow: 0 0 0 2px rgb(27, 115, 53), 0 0.5em 0 0 #ffe3e200;
+    transform: translate3d(0, 0.5em, -1em);
+}
+
+button.learn-more:active {
+    /* background: var(--background-color); */
+    transform: translate(0em, 0.45em);
+}
+
+button.learn-more:active::before {
+    box-shadow: 0 0 0 2px rgb(27, 115, 53), 0 0 #ffe3e200;
+    transform: translate3d(0, 0, -.2em);
+}
+
+
+
+
+/* From Uiverse.io by vinodjangid07 */ 
+.Btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition-duration: .2s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+    background-color: rgb(255, 65, 65);
+  }
+  
+  /* plus sign */
+  .sign {
+    width: 100%;
+    transition-duration: .2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sign svg {
+    width: 17px;
+  }
+  
+  .sign svg path {
+    fill: white;
+  }
+  /* text */
+  .text {
+    position: absolute;
+    right: 0%;
+    width: 0%;
+    opacity: 0;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    transition-duration: .2s;
+  }
+  /* hover effect on button width */
+  .Btn:hover {
+    width: 125px;
+    border-radius: 40px;
+    transition-duration: .2s;
+  }
+  
+  .Btn:hover .sign {
+    width: 30%;
+    transition-duration: .2s;
+    padding-left: 20px;
+  }
+  /* hover effect button's text */
+  .Btn:hover .text {
+    opacity: 1;
+    width: 70%;
+    transition-duration: .2s;
+    padding-right: 10px;
+  }
+  /* button click effect*/
+  .Btn:active {
+    transform: translate(2px ,2px);
+  }
