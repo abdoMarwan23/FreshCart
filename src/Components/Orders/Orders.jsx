@@ -2,8 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import {jwtDecode} from 'jwt-decode';
-import OrderSummary from "../OrderSummary/OrderSummary";
-// import { data } from "autoprefixer";
+import LoadingScrean from "../LoadingScrean/LoadingScrean";
 
 
 export default function Orders() {
@@ -12,7 +11,7 @@ export default function Orders() {
     const [isLoading, setIsLoading] = useState(true)
 
     useEffect(() => {
-        getAllProducts()
+        getAllOrders()
     }, [])
 
 
@@ -27,7 +26,7 @@ export default function Orders() {
 
 
 
-    async function getAllProducts() {
+    async function getAllOrders() {
         setIsLoading(true)
         let { data } = await axios.get("https://ecommerce.routemisr.com/api/v1/orders/user/" + decoded.id)
         // console.log(data);
@@ -43,7 +42,7 @@ export default function Orders() {
             <Helmet>
                 <title>Orders</title>
             </Helmet>
-            <div className=" mb-5 mt-4">
+            {isLoading? <LoadingScrean/>  :<div className=" mb-5 mt-4">
                 
                 <div className=" px-4 flex flex-col xl:flex-row lg:justify-center items-start ">
                     
@@ -164,7 +163,7 @@ export default function Orders() {
                         </div>
                 </div>
 
-            </div>
+            </div>}
         </>
     )
 }

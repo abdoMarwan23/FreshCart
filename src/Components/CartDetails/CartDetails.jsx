@@ -57,17 +57,17 @@ export default function CartDetails({ product, cart, setCart, setIsLoading }) {
     return (
         <>
             {product &&
-                <div className="md:flex items-strech py-8 md:py-10 lg:py-8 border-t  border-gray-50">
-                    <div className="md:w-4/12 2xl:w-1/4 w-full">
+                <div className="md:flex items-strech py-8 md:py-10 lg:py-8 border-t overflow-hidden border-gray-50">
+                    <div className="md:w-4/12 2xl:w-1/4 w-80 flex justify-center items-center text-center">
                         <img src={product.product.imageCover} alt="Black Leather Purse" className="h-full object-center object-cover block " />
                     </div>
                     <div className="md:pl-3 md:w-8/12 2xl:w-3/4 flex flex-col justify-center">
                         <p style={{ color: 'var(--text-color-pragraph)' }} className="text-xs leading-3  md:pt-0 pt-4">RF293</p>
                         <div className="flex items-center justify-between w-full">
                             <p  style={{ color: 'var(--text-color-title)' }} className="text-base font-black leading-none ">{product.product.title}</p>
-                            <div className="">
+                            <div className="flex flex-col sm:block">
                                 <button disabled={product.count == 1 || btnLoading} onClick={() => UpdateProductCount(product.product._id, product.count - 1)} className="cursor-pointer rounded-l disabled:hover:bg-gray-100 disabled:hover:text-black disabled:cursor-not-allowed bg-[#ececec] py-1 px-3 duration-100 text-slate-900 hover:bg-[#359751] hover:text-zinc-50  " >{btnLoading ? <i className="fas fa-spinner fa-spin"></i> : '-'}</button>
-                                <input onBlur={() => product.count != productCount && UpdateProductCount(product.product._id, productCount)} onChange={(e) => setProductCount(e.target.value)} className="h-8 w-16  pl-3 style={{ backgroundColor: 'var(--bg-color-input)', color: 'var(--text-color-input)' }} focus:outline-[#359751] my-[1px] text-center text-s outline-none" type="number" value={productCount} min={1} />
+                                <input style={{ backgroundColor: 'var(--bg-color-input)', color: 'var(--text-color-input)' }} onBlur={() => product.count != productCount && UpdateProductCount(product.product._id, productCount)} onChange={(e) => setProductCount(e.target.value)} className="h-8 w-16  pl-3  focus:outline-[#359751] sm:my-[1px] text-center text-s outline-none" type="number" value={productCount} min={1} />
                                 <button disabled={btnLoading} onClick={() => UpdateProductCount(product.product._id, product.count + 1)} className="cursor-pointer rounded-r bg-[#ececec] py-1 px-3 duration-100 text-slate-900 hover:bg-[#359751] hover:text-zinc-50   " >{btnLoading ? <i className="fas fa-spinner fa-spin"></i> : '+'}</button>
                             </div>
                         </div>

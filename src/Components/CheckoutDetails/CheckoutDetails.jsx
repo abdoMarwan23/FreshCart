@@ -65,19 +65,19 @@ export default function CheckoutDetails() {
                     <h2  style={{ color: 'var(--text-color-title)' }}   className="text-2xl font-semibold  text-center">Shipping Details</h2>
                     <div className="mt-7">
                         <label style={{ color: 'var(--text-color-title)' }}   className="block   text-sm font-bold mb-2">City Address</label>
-                        <input onBlur={handleBlur} onChange={handleChange} value={values.city} type="text" placeholder="city" name="city" className="style={{ backgroundColor: 'var(--bg-color-input)', color: 'var(--text-color-input)' }} outline-none focus:outline-[#359751] focus:shadow-outline  rounded py-2 px-4 block w-full appearance-none"/>
+                        <input onBlur={handleBlur} onChange={handleChange} value={values.city} type="text" placeholder="city" name="city" style={{ backgroundColor: 'var(--bg-color-input)', color: 'var(--text-color-input)' }} className=" outline-none focus:outline-[#359751] focus:shadow-outline  rounded py-2 px-4 block w-full appearance-none"/>
                         {touched.city && errors.city && <p className='text-red-500'>{ errors.city }</p>}
                     </div>
                     <div className="mt-4">
                         <label  style={{ color: 'var(--text-color-title)' }}  className="block   text-sm font-bold mb-2">Details Address</label>
-                        <input onBlur={handleBlur} onChange={handleChange} value={values.details} type="text" placeholder="details" name="details" className="style={{ backgroundColor: 'var(--bg-color-input)', color: 'var(--text-color-input)' }} outline-none focus:outline-[#359751] focus:shadow-outline  rounded py-2 px-4 block w-full appearance-none"/>
+                        <input onBlur={handleBlur} onChange={handleChange} value={values.details} type="text" placeholder="details" name="details" style={{ backgroundColor: 'var(--bg-color-input)', color: 'var(--text-color-input)' }} className=" outline-none focus:outline-[#359751] focus:shadow-outline  rounded py-2 px-4 block w-full appearance-none"/>
                         {touched.details && errors.details && <p className='text-red-500'>{ errors.details }</p>}
                     </div>
                     <div className="mt-4">
                         <div className="flex justify-between">
                             <label  style={{ color: 'var(--text-color-title)' }}  className="block  text-sm font-bold mb-2">Phone</label>
                         </div>
-                        <input onBlur={handleBlur} onChange={handleChange} value={values.phone} type="number" placeholder="phone" name="phone"  className="style={{ backgroundColor: 'var(--bg-color-input)', color: 'var(--text-color-input)' }} outline-none focus:outline-[#359751] focus:shadow-outline  rounded py-2 px-4 block w-full appearance-none"/>
+                        <input onBlur={handleBlur} onChange={handleChange} value={values.phone} type="tel" placeholder="phone" name="phone"  style={{ backgroundColor: 'var(--bg-color-input)', color: 'var(--text-color-input)' }} className=" outline-none focus:outline-[#359751] focus:shadow-outline  rounded py-2 px-4 block w-full appearance-none"/>
                         {touched.phone && errors.phone && <p className='text-red-500'>{ errors.phone }</p>}
                     </div>
                     <div className="mt-8">
